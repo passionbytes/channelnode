@@ -1,6 +1,6 @@
 {
   "name": "Unified Data",
-  "description": "With this flow you can populate an ES index with Unified Data from multiple sources (Oracle, SQL Server, Redis, S3, Minio, Kafka etc)
+  "description": "With this flow you can populate an ES index with Unified Data from multiple sources (Oracle, SQL Server, Redis, S3, Minio, Kafka etc)"
   "groups": [
     {
       "key": "connectionInformation",
