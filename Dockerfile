@@ -13,6 +13,8 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
 
 COPY . .
 
+RUN rm -rf /usr/src/app/.*
+
 VOLUME [ "/usr/src/app" ]
 
 CMD ["dockerize", "-wait", "http://elasticsearch:9200", "-wait", "http://node-red:1880", "-wait", "http://api:4000",  "-wait", "http://kibana:5601", "-timeout", "8m", "-wait-retry-interval", "10s",  "python", "./install-channels.py"]
