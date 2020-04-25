@@ -13,7 +13,7 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
 
 COPY . .
 
-RUN rm -rf /usr/src/app/.*
+RUN rm -rf /usr/src/app/.git
 
 VOLUME [ "/usr/src/app" ]
 
