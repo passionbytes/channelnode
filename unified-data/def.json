@@ -767,7 +767,7 @@
     },
       {
           "id": "{{_id}}-7",
-          "type": "prestoclient",
+          "type": "prestoClient",
           "PrestoClient-CN": "{{_id}}-8",
           "name": "",
           "query": "",
