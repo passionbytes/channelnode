@@ -768,7 +768,6 @@
       {
           "id": "{{_id}}-7",
           "type": "prestoClient",
-          "PrestoClient-CN": "{{_id}}-8",
           "name": "",
           "query": "",
           "outField": "payload",
@@ -1169,9 +1168,7 @@
           "domain": "{{domain}}",
           "password": "{{password}}"
         },
-        "type": "PrestoClient-CN",
-        "id": "{{_id}}-8"
-      }
+       }
   ]
   }
 }
